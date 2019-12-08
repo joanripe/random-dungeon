@@ -1,0 +1,709 @@
+fileFormatVersion: 2
+guid: 2ba2df8bf740d1243a3c678fe4a49f20
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: malfurion(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion
+      parentName: malfurion(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_rig
+      parentName: malfurion(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_0
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_1
+      parentName: creature/malfurion/malfurion_bone_0
+      position: {x: -0, y: 0.773149, z: 0}
+      rotation: {x: -0, y: 0.70717263, z: -0, w: 0.70704097}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_2
+      parentName: creature/malfurion/malfurion_bone_1
+      position: {x: 0.0011712315, y: -0.0046141148, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_4
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: 0.041231833, y: 0.14843506, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_9
+      parentName: creature/malfurion/malfurion_bone_4
+      position: {x: 0.011738565, y: 0.119607866, z: -0.042164255}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_17
+      parentName: creature/malfurion/malfurion_bone_9
+      position: {x: -0.01803216, y: -0.014236331, z: -0.09425004}
+      rotation: {x: 0.5694607, y: 0.06455508, z: 0.00010594724, w: 0.8194799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_26
+      parentName: creature/malfurion/malfurion_bone_17
+      position: {x: 0.020765733, y: -0.18307899, z: -0.06212473}
+      rotation: {x: 0.0683428, y: -0.05666468, z: 0.17524378, w: 0.9805142}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_33
+      parentName: creature/malfurion/malfurion_bone_26
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_107
+      parentName: creature/malfurion/malfurion_bone_33
+      position: {x: 0.04209504, y: -0.032423735, z: 0.00071279705}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_34
+      parentName: creature/malfurion/malfurion_bone_26
+      position: {x: -0.061900582, y: -0.18119262, z: -0.034447804}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_38
+      parentName: creature/malfurion/malfurion_bone_34
+      position: {x: -0.012031723, y: -0.0958786, z: 0.0028143227}
+      rotation: {x: 0.24555215, y: -0.053057566, z: -0.069185, w: 0.9654546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_42
+      parentName: creature/malfurion/malfurion_bone_38
+      position: {x: -0.005401853, y: -0.0646708, z: 0.030423611}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_39
+      parentName: creature/malfurion/malfurion_bone_34
+      position: {x: -0.03743288, y: -0.04620242, z: 0.049383428}
+      rotation: {x: 0.19125868, y: -0.05532622, z: 0.011104453, w: 0.9799162}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_43
+      parentName: creature/malfurion/malfurion_bone_39
+      position: {x: -0.008398569, y: -0.02700919, z: 0.010083079}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_104
+      parentName: creature/malfurion/malfurion_bone_34
+      position: {x: -0.013637629, y: -0.09640396, z: 0.038899735}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_118
+      parentName: creature/malfurion/malfurion_bone_104
+      position: {x: 0.005304249, y: 0.01509279, z: -0.004438624}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_108
+      parentName: creature/malfurion/malfurion_bone_34
+      position: {x: -0.009296384, y: -0.09607678, z: 0.03736815}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_112
+      parentName: creature/malfurion/malfurion_bone_34
+      position: {x: -0.05658217, y: 0.0022811294, z: -0.00056546926}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_113
+      parentName: creature/malfurion/malfurion_bone_34
+      position: {x: -0.009294067, y: -0.09608364, z: 0.037361845}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_98
+      parentName: creature/malfurion/malfurion_bone_17
+      position: {x: -0.021819625, y: 0.0073820353, z: -0.04851466}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_92
+      parentName: creature/malfurion/malfurion_bone_9
+      position: {x: -0.054127652, y: 0.00031077862, z: 0.00015853345}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_10
+      parentName: creature/malfurion/malfurion_bone_4
+      position: {x: 0.011739052, y: 0.1196143, z: 0.041963816}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_18
+      parentName: creature/malfurion/malfurion_bone_10
+      position: {x: -0.018151138, y: -0.013802767, z: 0.094481654}
+      rotation: {x: -0.5626424, y: -0.054866105, z: -0.00010469556, w: 0.82487774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_27
+      parentName: creature/malfurion/malfurion_bone_18
+      position: {x: 0.017758474, y: -0.18223506, z: 0.06544977}
+      rotation: {x: -0.08479067, y: 0.054149352, z: 0.16053669, w: 0.9818892}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_35
+      parentName: creature/malfurion/malfurion_bone_27
+      position: {x: 0.0005483851, y: -0.000027000904, z: 0.00023917854}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_106
+      parentName: creature/malfurion/malfurion_bone_35
+      position: {x: 0.04467239, y: -0.033680856, z: -0.004308015}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_36
+      parentName: creature/malfurion/malfurion_bone_27
+      position: {x: -0.05873286, y: -0.1828118, z: 0.030641839}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_40
+      parentName: creature/malfurion/malfurion_bone_36
+      position: {x: -0.004296798, y: -0.105068974, z: -0.010004848}
+      rotation: {x: -0.2275737, y: 0.05177349, z: -0.036980167, w: 0.9716801}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_44
+      parentName: creature/malfurion/malfurion_bone_40
+      position: {x: -0.009542471, y: -0.06197357, z: -0.028041363}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_41
+      parentName: creature/malfurion/malfurion_bone_36
+      position: {x: -0.03304239, y: -0.050790127, z: -0.053737387}
+      rotation: {x: -0.20365268, y: 0.07333634, z: 0.10194614, w: 0.97095543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_45
+      parentName: creature/malfurion/malfurion_bone_41
+      position: {x: -0.013490103, y: -0.022988856, z: -0.010411128}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_105
+      parentName: creature/malfurion/malfurion_bone_36
+      position: {x: -0.012901695, y: -0.09575051, z: -0.039339513}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_117
+      parentName: creature/malfurion/malfurion_bone_105
+      position: {x: 0.000000014901161, y: 0, z: 0.000000014901161}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_119
+      parentName: creature/malfurion/malfurion_bone_117
+      position: {x: -0.011451579, y: -0.023751974, z: -0.009173751}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_109
+      parentName: creature/malfurion/malfurion_bone_36
+      position: {x: -0.009338293, y: -0.09574169, z: -0.0369184}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_110
+      parentName: creature/malfurion/malfurion_bone_36
+      position: {x: -0.035172343, y: -0.09625125, z: -0.06341581}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_111
+      parentName: creature/malfurion/malfurion_bone_36
+      position: {x: -0.035172343, y: -0.09625125, z: -0.06341581}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_114
+      parentName: creature/malfurion/malfurion_bone_36
+      position: {x: -0.03146101, y: -0.09166503, z: -0.0597593}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_115
+      parentName: creature/malfurion/malfurion_bone_36
+      position: {x: -0.03146101, y: -0.09166503, z: -0.0597593}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_116
+      parentName: creature/malfurion/malfurion_bone_36
+      position: {x: -0.009336019, y: -0.095748365, z: -0.03691207}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_97
+      parentName: creature/malfurion/malfurion_bone_18
+      position: {x: -0.025523044, y: 0.0070728064, z: 0.04668078}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_93
+      parentName: creature/malfurion/malfurion_bone_10
+      position: {x: -0.054128475, y: 0.00030362606, z: -0.00019671768}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_15
+      parentName: creature/malfurion/malfurion_bone_4
+      position: {x: 0.008680586, y: 0.16583055, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_16
+      parentName: creature/malfurion/malfurion_bone_15
+      position: {x: -0.028602509, y: 0.045982003, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_22
+      parentName: creature/malfurion/malfurion_bone_16
+      position: {x: 0.031278126, y: 0.02988565, z: -0.061829023}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_30
+      parentName: creature/malfurion/malfurion_bone_22
+      position: {x: 0.04547729, y: 0.0067989826, z: -0.02617535}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_23
+      parentName: creature/malfurion/malfurion_bone_16
+      position: {x: 0.031278055, y: 0.02988565, z: 0.06182927}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_31
+      parentName: creature/malfurion/malfurion_bone_23
+      position: {x: 0.04547736, y: 0.006798506, z: 0.026175281}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_24
+      parentName: creature/malfurion/malfurion_bone_16
+      position: {x: -0.024376847, y: -0.021266818, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_25
+      parentName: creature/malfurion/malfurion_bone_16
+      position: {x: 0.07514648, y: 0.04540348, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_32
+      parentName: creature/malfurion/malfurion_bone_25
+      position: {x: 0.09295294, y: -0.13908708, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_37
+      parentName: creature/malfurion/malfurion_bone_32
+      position: {x: -0.0009024292, y: -0.168868, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_96
+      parentName: creature/malfurion/malfurion_bone_16
+      position: {x: -0.042978957, y: 0.087219596, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_99
+      parentName: creature/malfurion/malfurion_bone_16
+      position: {x: -0.076567635, y: -0.030280352, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_102
+      parentName: creature/malfurion/malfurion_bone_16
+      position: {x: -0.076564446, y: -0.030282378, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_103
+      parentName: creature/malfurion/malfurion_bone_16
+      position: {x: -0.000000007450581, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_81
+      parentName: creature/malfurion/malfurion_bone_4
+      position: {x: 0.07139595, y: 0.05863297, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_82
+      parentName: creature/malfurion/malfurion_bone_4
+      position: {x: -0.06613087, y: 0.046816945, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_83
+      parentName: creature/malfurion/malfurion_bone_4
+      position: {x: 0.075440764, y: 0.0040920973, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_84
+      parentName: creature/malfurion/malfurion_bone_4
+      position: {x: 0.119420335, y: -0.037807226, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_85
+      parentName: creature/malfurion/malfurion_bone_4
+      position: {x: 0.13140425, y: 0.01882279, z: -0.04679166}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_86
+      parentName: creature/malfurion/malfurion_bone_4
+      position: {x: 0.08941694, y: 0.01882279, z: 0.04678835}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_87
+      parentName: creature/malfurion/malfurion_bone_4
+      position: {x: -0.08788231, y: 0.024308622, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_91
+      parentName: creature/malfurion/malfurion_bone_87
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_88
+      parentName: creature/malfurion/malfurion_bone_4
+      position: {x: -0.06095582, y: -0.15033579, z: -0.023319997}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_69
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.004646063, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_70
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.0046460032, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_71
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.0046460032, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_72
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.0046460032, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_73
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.0046460032, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_74
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.0046460032, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_75
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.0046460032, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_76
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.0046460032, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_77
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.0046460032, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_78
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.0046460032, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_79
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.0046460032, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_80
+      parentName: creature/malfurion/malfurion_bone_2
+      position: {x: -0.0011712315, y: -0.0046460032, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_3
+      parentName: creature/malfurion/malfurion_bone_1
+      position: {x: -0.0090061845, y: -0.030689418, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_5
+      parentName: creature/malfurion/malfurion_bone_3
+      position: {x: 0.124499366, y: -0.10359632, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_11
+      parentName: creature/malfurion/malfurion_bone_5
+      position: {x: 0.0021979809, y: -0.11770505, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_6
+      parentName: creature/malfurion/malfurion_bone_3
+      position: {x: -0.06436338, y: -0.03986305, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_12
+      parentName: creature/malfurion/malfurion_bone_6
+      position: {x: -0.024637653, y: -0.083393686, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_19
+      parentName: creature/malfurion/malfurion_bone_12
+      position: {x: -0.002690561, y: -0.108420424, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_7
+      parentName: creature/malfurion/malfurion_bone_3
+      position: {x: -0.006365001, y: -0.063069046, z: -0.06594462}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_13
+      parentName: creature/malfurion/malfurion_bone_7
+      position: {x: 0.011079773, y: -0.2906492, z: -0.024784066}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_20
+      parentName: creature/malfurion/malfurion_bone_13
+      position: {x: 0.05057582, y: -0.3078669, z: -0.025447084}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_28
+      parentName: creature/malfurion/malfurion_bone_20
+      position: {x: -0.108947635, y: -0.07217484, z: -0.0007225573}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_100
+      parentName: creature/malfurion/malfurion_bone_20
+      position: {x: -0, y: 0, z: 0.000000014901161}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_89
+      parentName: creature/malfurion/malfurion_bone_13
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_95
+      parentName: creature/malfurion/malfurion_bone_89
+      position: {x: -0.054520696, y: -0.0006133616, z: -0.007266469}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_8
+      parentName: creature/malfurion/malfurion_bone_3
+      position: {x: -0.0063568065, y: -0.06306362, z: 0.06594448}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_14
+      parentName: creature/malfurion/malfurion_bone_8
+      position: {x: 0.011311749, y: -0.29064003, z: 0.024786068}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_21
+      parentName: creature/malfurion/malfurion_bone_14
+      position: {x: 0.0503351, y: -0.3079614, z: 0.025451263}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_29
+      parentName: creature/malfurion/malfurion_bone_21
+      position: {x: -0.10883538, y: -0.072372794, z: 0.00072194636}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_101
+      parentName: creature/malfurion/malfurion_bone_21
+      position: {x: -0, y: -0.000000014901161, z: -0.000000029802322}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_90
+      parentName: creature/malfurion/malfurion_bone_14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_94
+      parentName: creature/malfurion/malfurion_bone_90
+      position: {x: -0.0698985, y: -0.0021464229, z: 0.009179807}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_65
+      parentName: creature/malfurion/malfurion_bone_3
+      position: {x: 0.0090061845, y: 0.022715867, z: 0.10483828}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_66
+      parentName: creature/malfurion/malfurion_bone_3
+      position: {x: 0.0090061845, y: 0.022715688, z: -0.10300294}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_67
+      parentName: creature/malfurion/malfurion_bone_3
+      position: {x: -0.003191443, y: -0.04344636, z: -0.101978205}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_68
+      parentName: creature/malfurion/malfurion_bone_3
+      position: {x: -0.0046846047, y: -0.04515308, z: 0.09555122}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_46
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: 0.025158238, y: 1.5271937, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_47
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_48
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: 0.008021173, y: 1.3971391, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_49
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.027777778, y: 0.7899288, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_50
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_51
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.14926498, y: 0, z: 0.033051807}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_52
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.1625717, y: 0, z: -0.035584677}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_53
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.14270203, y: 0, z: -0.054199822}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_54
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.24453476, y: 0, z: 0.08767613}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_55
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.23099345, y: 0, z: 0.05414577}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_56
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.2363276, y: 0, z: -0.056931842}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_57
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_58
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_59
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.049080063, y: 0, z: 0.0849781}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_60
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.04670011, y: 0, z: -0.073187694}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_61
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.004134819, y: 0, z: -0.140403}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_62
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.0072212485, y: 0, z: 0.13617097}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_63
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.07123971, y: 0, z: -0.034418583}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/malfurion/malfurion_bone_64
+      parentName: creature/malfurion/malfurion_rig
+      position: {x: -0.08774812, y: 0, z: 0.021070218}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
