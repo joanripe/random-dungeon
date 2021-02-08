@@ -15,6 +15,6 @@ MonoBehaviour:
   welcomeScreenVersion: '1.9.0 '
   playmakerVersion: 
   showWelcomeScreen: 0
-  showUpgradeGuide: 1
-  lastAutoUpdateSignature: 
+  showUpgradeGuide: 0
+  lastAutoUpdateSignature: 2019.2.17f1__D:/unity 3d/random-dungeon/samurai roguelike/Assets__0.0.0.0
   useLegacyNetworking: 0

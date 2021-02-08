@@ -532,7 +532,7 @@ public class LevelGenerator : MonoBehaviour
 
             // operaciones de giro y colocacion de la sala nueva
 
-            newRoom.GetComponent<RoomTemplate>().parentRoom = _door.transform.parent.gameObject;
+            newRoom.GetComponent<RoomTemplate>().parentRoom = _door.transform.parent.gameObject.transform.parent.gameObject;
             newRoom.transform.Rotate(rotateRoom);
             newRoom.transform.position = _door.transform.position + offset;
             Vector3 displacement = door.transform.position - newRoom.transform.position;
@@ -687,5 +687,27 @@ public class LevelGenerator : MonoBehaviour
                 }
             }
         }
+    }
+
+    //contador de cuantas salas hay desde la sala recibida hasta la primera sala
+    //accediendo al componente ParentRoom guardado en cada sala
+    int RoomsUntilStart(GameObject g)
+    {
+        bool gIsFisrtRoom = false;
+        int roomsUntilStart = 0;
+        do
+        {
+            try
+            {
+                g = g.GetComponent<RoomTemplate>().parentRoom;
+                roomsUntilStart++;
+            }
+            catch (System.Exception)
+            {
+                gIsFisrtRoom = true;
+            }
+        } while (!gIsFisrtRoom);
+        Debug.Log("******salas hasta la primera: " + roomsUntilStart);
+        return roomsUntilStart;
     }
 }
