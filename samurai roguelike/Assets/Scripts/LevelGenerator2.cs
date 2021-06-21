@@ -81,16 +81,10 @@ public class LevelGenerator2 : MonoBehaviour
         GameObject room;
         numRng = numberGenerator.GetNumber(entryRooms.Length);
         //spawn y colocacion de la sala inicial
-        if (startRoom == null)
-        {
-            room = Instantiate(entryRooms[numRng], Vector3.zero, entryRooms[numRng].transform.rotation);
-            startRoom = room;
-            lastRoomSpawned = room;
-        }
-        else
-        {
-            room = startRoom;
-        }
+        
+        room = Instantiate(entryRooms[numRng], Vector3.zero, entryRooms[numRng].transform.rotation);
+        startRoom = room;
+        lastRoomSpawned = room;
         roomsSpawned.Add(room);
         room.transform.parent = this.transform;
         room.name = "initialRoom";
@@ -124,7 +118,7 @@ public class LevelGenerator2 : MonoBehaviour
         int numRng = 0;
         do
         {
-            intents = 0;
+            //intents = 0;
             try
             {
                 doorways = lastRoomSpawned.GetComponent<RoomTemplate>().doorways;
@@ -156,18 +150,16 @@ public class LevelGenerator2 : MonoBehaviour
                 
                 numRng = numberGenerator.GetNumber(availableDoors.Count - 1);
                 lastRoomSpawned = availableDoors[numRng].transform.parent.transform.parent.gameObject;
+                intents = 0;
             }
 
-            //Debug.Break();
-            
-        //-----------------------
-        //PROBLEMA DE BUCLE INFINITO
-        //--------------------------
-            
+            //Debug.Break();  
         } while (RoomsUntilStart(lastRoomSpawned) < entryToEndRooms);
 
 
         // crea la sala final
+
+        intents = 0;
         try
         {
             doorways = lastRoomSpawned.GetComponent<RoomTemplate>().doorways;
@@ -189,7 +181,8 @@ public class LevelGenerator2 : MonoBehaviour
         Debug.Log("comprobando spawn sala final");
         if (!endRoomSpawned)
         {
-            ResetSpawn();
+            StartCoroutine("GenerateMainpath");
+            //ResetSpawn();
         }
         else
         {

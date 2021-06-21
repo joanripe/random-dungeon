@@ -368,6 +368,7 @@ GameObject:
   - component: {fileID: 770777266}
   - component: {fileID: 770777265}
   - component: {fileID: 770777267}
+  - component: {fileID: 770777268}
   m_Layer: 0
   m_Name: LevelGenerator
   m_TagString: Untagged
@@ -382,7 +383,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770777264}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d13ba73473029844ab60ca1b18113b02, type: 3}
   m_Name: 
@@ -441,8 +442,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f557bf0f4289cfa429afa4d923566628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seed: 2
+  seed: 0
   seedLocal: 1569024000000
+--- !u!114 &770777268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770777264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ac4bb364f376b54a8c82945d7173b52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberGenerator: {fileID: 770777267}
+  player: {fileID: 0}
+  mainCamera: {fileID: 0}
+  zombies: []
+  numZombies: 0
+  entryToEndRooms: 40
+  numRooms: 160
+  minRooms: 80
+  maxIntents: 20
+  entryRooms:
+  - {fileID: 5902335203972693466, guid: 10081c39a12a75d44b717da5ff7fb652, type: 3}
+  endRooms:
+  - {fileID: 5902335203972693466, guid: 10081c39a12a75d44b717da5ff7fb652, type: 3}
+  roomsPool:
+  - {fileID: 5902335203972693466, guid: 10081c39a12a75d44b717da5ff7fb652, type: 3}
+  - {fileID: 7697411115082271809, guid: 6e375170c7047d8468c67c9d38530049, type: 3}
+  - {fileID: 5107342267101499612, guid: 3ae8f00f021995747bbdc36a923b979e, type: 3}
+  - {fileID: 9172634953986036608, guid: fa1e07673aae0e54d9834b7f66526821, type: 3}
+  - {fileID: 3664279211063852396, guid: eccded309c2348041ad846c5314035a7, type: 3}
+  - {fileID: 1518231332725005250, guid: ee6aac02380179a47a7da0a8df2acd7f, type: 3}
+  - {fileID: 1407580560726161523, guid: 72a14f801e475bb449200e9fe8fd1aee, type: 3}
+  - {fileID: 7697928272849588330, guid: 35168cb2840595e4194c3d359dc9fac0, type: 3}
+  - {fileID: 5614180217427530376, guid: 68c251fa85ebc57458de020aa27a0041, type: 3}
+  - {fileID: 4601973800204749974, guid: 988fa5a67e094b24cb5ef23138a13069, type: 3}
+  - {fileID: 3074022452065208801, guid: cc34e75cc4ad75845a47d98ce3125a63, type: 3}
+  - {fileID: 4175930095085643641, guid: 8a182ecda6213e74ca22de6d07f41fe9, type: 3}
+  wallPool: {fileID: 8137579875015681451, guid: c7d645275bdf54942add2d8c4bbf569b,
+    type: 3}
 --- !u!1 &1123664387
 GameObject:
   m_ObjectHideFlags: 0
