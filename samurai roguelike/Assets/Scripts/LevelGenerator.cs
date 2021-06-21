@@ -402,7 +402,6 @@ public class LevelGenerator : MonoBehaviour
         {
             if (!_endRoom)
             {
-
                 do
                 {
                     numRng = numberGenerator.GetNumber(roomsPool.Length-1);

@@ -942,6 +942,7 @@
     <Compile Include="Assets\Scripts\AI\Wander.cs" />
     <Compile Include="Assets\Scripts\DoorTemplate.cs" />
     <Compile Include="Assets\Scripts\LevelGenerator.cs" />
+    <Compile Include="Assets\Scripts\LevelGenerator2.cs" />
     <Compile Include="Assets\Scripts\NumberSingleton.cs" />
     <Compile Include="Assets\Scripts\PseudoRandomGenerator.cs" />
     <Compile Include="Assets\Scripts\RoomTemplate.cs" />
